@@ -6,31 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 80%;
-  max-width: 1100px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@media screen and (max-width: 480px){
-  body{
-    width: 100%;
-    padding: 5px;
-    overflow-x: hidden;
-  }
-  .container{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .list-item{
-    font-size: .75rem;
-    display: inline-block;
-  }
-  .task-btn{
-    padding: 0;
-    margin: 0;
-    display: inline;
-  }
 }
