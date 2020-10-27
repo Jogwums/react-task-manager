@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+:root{
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --palered: palevioletred;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --darkgray: #18191a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0 auto;
+  padding: 3rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  width: 50%;
+  background-color: var(--darkgray);
+  color: var(--white);
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list{
+  padding: 1rem .35rem;
+  list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+.list-item{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.task-btn{
+  margin: 2px;
+  padding: .5rem;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-delete{
+  background-color: var(--palered);
+  color: var(--white);
+}
+.btn-edit{
+  background-color: var(--white);
+  color: var(--gray);
+}
+.no-task{
+  color: var(--red);
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 0 auto;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
