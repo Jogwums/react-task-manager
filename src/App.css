@@ -89,8 +89,8 @@ body{
     font-size: .75rem;
   }
   .task-btn{
-    padding: .25rem;
-    margin: .1rem;
+    padding: .5rem;
+    margin: .25rem;
     display: inline;
   }
 }
