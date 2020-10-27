@@ -16,7 +16,7 @@ const TaskList = () => {
                 </ul>
             ) : (
                 <div className="no-task">
-                    No Tasks to display 
+                    No tasks to display 
                 </div>
             )}
             
